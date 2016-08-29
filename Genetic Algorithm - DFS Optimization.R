@@ -102,3 +102,5 @@ GAmodel <-ga(type="binary",nBits = nrow(dataset), fitness=evalFunc,
 sol <-summary(GAmodel)$solution
 dataset[sol==1]
 
+#Plot of solution progress
+plot(GAmodel)
