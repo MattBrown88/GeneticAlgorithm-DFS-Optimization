@@ -77,7 +77,7 @@ evalFunc <- function(x) {
     return(0)
   
   if(  sum(x)>10                             ||
-       #current_solution_salary > salarylimit ||
+       current_solution_salary > salarylimit ||
        sum(dataset$position[x==1] =="1B")>1  ||
        
        sum(dataset$position[x==1] =="2B")>1  ||
