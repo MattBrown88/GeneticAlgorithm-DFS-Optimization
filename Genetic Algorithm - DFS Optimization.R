@@ -1,3 +1,14 @@
+#Genetic algorithm to optimize daily fantasy sports lineup
+#Author: Matt Brown    email: Matthew.brown.iowa@gmail.com
+#
+#The algorithm takes a csv of player names, positions, salaries and expected points scored and generates an optimal lineup based
+#based on the constraints in the evaluation function.
+#
+#The algorithm can be used across a variety of similar knapsack optimization type problems.
+#
+#Note: This does not always generate the optimal lineup. Adjusting the parameters can help you get close to optimal.
+#Please see my other repository "lpsolve - DFS Lineup Optimization" for code that will always generate an optimal lineup.
+
 library(parallel)
 library(doParallel)
 library(GA)
